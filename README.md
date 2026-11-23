@@ -22,3 +22,14 @@
 ## Стек
 
 `requests` · `BeautifulSoup4` · `pandas` · `matplotlib` · Jupyter
+
+## Как запустить
+
+```bash
+pip install requests beautifulsoup4 pandas matplotlib openpyxl jupyter
+jupyter notebook
+```
+
+Сначала `Парсер_Поступи_ру.ipynb`, он сохраняет выгрузки в `data/`, затем
+`Обработка_данных_Ранхигс.ipynb`. Готовые выгрузки уже лежат в `data/`,
+поэтому анализ можно открыть без парсинга.
